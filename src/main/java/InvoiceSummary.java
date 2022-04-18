@@ -17,4 +17,15 @@ public class InvoiceSummary {
         return totalNumOfRides == summary.totalNumOfRides && Double.compare(summary.totalFare,
                 totalFare) == 0 && Double.compare(summary.averageFarePerRide, averageFarePerRide) == 0;
     }
+    public int getNumberOfRides() {
+        return totalNumOfRides;
+    }
+
+    public double getTotalFare() {
+        return totalFare;
+    }
+
+    public double getAverageFare() {
+        return averageFarePerRide;
+    }
 }

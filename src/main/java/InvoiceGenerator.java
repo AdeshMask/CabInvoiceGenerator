@@ -33,6 +33,5 @@ public class InvoiceGenerator {
         }
         //    System.out.println(rides.length);
         return new InvoiceSummary(rides.length, totalFare);
-
     }
 }
